@@ -1,0 +1,22 @@
+.dashboard {
+  padding: 20px;
+}
+
+.hackathon-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between cards */
+}
+
+.hackathon-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.hackathon-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
